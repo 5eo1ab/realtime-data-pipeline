@@ -3,6 +3,9 @@ API_KEY.json
 
 ## Directory
 /__pycache__
+/.ipynb_checkpoints
+
+## Directory for Data
 /public_ticker_ALL
 
 ## Compiled File
