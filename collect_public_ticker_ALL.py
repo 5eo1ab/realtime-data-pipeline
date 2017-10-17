@@ -1,7 +1,7 @@
 """
 collect_public_ticker_ALL.py: loop for collect data
 @ author: 5eo1ab
-@ version: public stage(v1)
+@ version: pilot test(v1)
 """
 
 import os
@@ -19,13 +19,11 @@ def set_directory(OUT_DIR):
 
 if __name__ == '__main__':
 	set_directory(OUT_DIR)
-
-	p_seq = 0
 	while True:
-		xcoin = XCoinPublic()
-		xcoin.dump(OUT_DIR)
-		time.sleep(1)
-		p_seq += 1
-		if p_seq == 100:
-			print(xcoin.get_now())
-			p_seq = 0
+		for i in range(100):
+			xcoin = XCoinPublic() # default value: mode='ticker', currency='ALL'
+			xcoin.dump(OUT_DIR)
+			time.sleep(1)
+		print(xcoin.get_now())
+
+ 

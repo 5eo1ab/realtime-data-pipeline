@@ -45,3 +45,5 @@ if __name__ == '__main__':
 	xcoin = XCoinPublic()
 	print(xcoin.get_data())
 	xcoin.dump()
+
+ 
