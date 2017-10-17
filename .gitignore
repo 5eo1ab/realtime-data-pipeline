@@ -1,0 +1,8 @@
+## API KEY
+API_KEY.json
+
+## Directory
+/__pycache__
+
+## Compiled File
+*.pyc
