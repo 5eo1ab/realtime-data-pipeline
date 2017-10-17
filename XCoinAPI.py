@@ -1,5 +1,12 @@
+"""
+XCoinAPI.py: Customizing Bithumb API
+@ author: 5eo1ab
+@ version: public stage(v1)
+"""
+
 import json
 from urllib import request
+import datetime
 
 class XCoinPublic:
 	
@@ -11,6 +18,7 @@ class XCoinPublic:
 		self.base_url = "https://api.bithumb.com/public/{}/{}".format(mode, currency)
 		self.res_data = self.__call__()
 		self.d_code = "{}_{}".format(mode, currency)
+		self.now = datetime.datetime.now().strftime('%y%m%d-%H%M%S')
 		return None
 
 	def __call__(self):
@@ -22,19 +30,16 @@ class XCoinPublic:
 			return None
 		return json_res['data']
 
-	def get_data(self):
-		return self.res_data
-
 	def dump(self, fpath=None):
-		import datetime
 		if fpath is None:
 			import os
 			fpath = '/'.join(os.getcwd().split('\\'))
-		now = datetime.datetime.now().strftime('%y%m%d-%H%M%S')
-		with open(fpath+'/xcoin-public_{}_{}.json'.format(self.d_code, now), 'w') as f:
+		with open(fpath+'/xcoin-public_{}_{}.json'.format(self.d_code, self.now), 'w') as f:
 			json.dump(self.res_data, f)
 		return None
 
+	def get_data(self):		return self.res_data
+	def get_now(self):		return self.now
 
 if __name__ == '__main__':
 	xcoin = XCoinPublic()

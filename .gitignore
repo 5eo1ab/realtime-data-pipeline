@@ -3,6 +3,7 @@ API_KEY.json
 
 ## Directory
 /__pycache__
+/public_ticker_ALL
 
 ## Compiled File
 *.pyc
