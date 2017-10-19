@@ -70,3 +70,18 @@ PATH=$PATH:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.144-0.b01.el7_4.x86_64/jre/bin/
 
 #### 설정 활성화
 `$ source .bash_profile`
+
+## 미분류 패키지 설치
+#### wget 설치
+open source tar file download from web  
+`$ sudo yum install wget`
+#### wget 사용방법
+`$ wget [링크]`
+
+#### tar 파일 압축해제
+`$ tar xvf [파일명]`
+
+
+## 기타 설정
+#### 방화벽 허용 포트 넘버
+- 9200: elasticsearch
