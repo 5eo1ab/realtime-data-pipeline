@@ -35,6 +35,8 @@ pip 9.0.1 from /usr/lib/python3.4/site-packages/pip-9.0.1-py3.4.egg (python 3.4)
 #### clone repository
 `$ git clone https://github.com/5eo1ab/trading-bot`  
 `$ cd trading-bot`
+#### pull repository
+`$ git pull`
 
 ## 3. Java 설치 및 경로 설정
 #### Java 설치
@@ -84,4 +86,7 @@ open source tar file download from web
 
 ## 기타 설정
 #### 방화벽 허용 포트 넘버
+Google Cloud 플랫폼에서 기본적으로 방화벽은 막혀있음!  
+'VPC 네트워크' 설정에 들어가서 '방화벽 규칙' 설정해야함!!!
 - 9200: elasticsearch
+- 5601: kibana
