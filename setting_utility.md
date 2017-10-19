@@ -20,7 +20,7 @@ Python 3.4.5
 ```  
 
 #### pip 설치
-`$ cd /usr/lib/python3.4/site-packages/`
+`$ cd /usr/lib/python3.4/site-packages/`  
 `$ sudo python3 easy_install.py pip`
 > 결과
 ```
@@ -34,7 +34,7 @@ pip 9.0.1 from /usr/lib/python3.4/site-packages/pip-9.0.1-py3.4.egg (python 3.4)
 `$ sudo yum install git`
 #### clone repository
 `$ git clone https://github.com/5eo1ab/trading-bot`  
-`cd trading-bot`
+`$ cd trading-bot`
 
 ## 3. Java 설치 및 경로 설정
 #### Java 설치
