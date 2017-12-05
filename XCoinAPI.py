@@ -39,7 +39,7 @@ class XCoinPublic:
 			json.dump(self.res_data, f)
 		return None
 
-	def __ts2strftime__(ts):
+	def __ts2strftime__(self, ts):
 		res = datetime.datetime.fromtimestamp(ts/1000).strftime("%Y-%m-%d %H:%M:%S")
 		return res
 
