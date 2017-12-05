@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 """
 collect_public_ticker_ALL.py: loop for collect data
 @ author: 5eo1ab
@@ -25,5 +26,3 @@ if __name__ == '__main__':
 			xcoin.dump(OUT_DIR)
 			time.sleep(1)
 		print(xcoin.get_now())
-
- 

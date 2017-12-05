@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 """
 XCoinAPI.py: Customizing Bithumb API
 @ author: 5eo1ab
@@ -9,11 +10,10 @@ from urllib import request
 import datetime
 
 class XCoinPublic:
-	
 	def __init__(self, mode='ticker', currency='ALL'):
 		# {mode} = ticker (bithumb 거래소 마지막 거래 정보)
-		# 		 = orderbook (bithumb 거래소 판/구매 등록 대기 또는 거래 중 내역 정보)
-		#		 = recent_transactions (bithumb 거래소 거래 체결 완료 내역)
+		#		 , orderbook (bithumb 거래소 판매, 구매 등록 대기 또는 거래 중 내역 정보)
+		#		 , recent_transactions (bithumb 거래소 거래 체결 완료 내역)
 		# {currency} = BTC, ETH, DASH, LTC, ETC, XRP, BCH, XMR, ZEC (기본값: BTC), ALL(전체)
 		self.base_url = "https://api.bithumb.com/public/{}/{}".format(mode, currency)
 		self.res_data = self.__call__()
@@ -45,5 +45,3 @@ if __name__ == '__main__':
 	xcoin = XCoinPublic()
 	print(xcoin.get_data())
 	xcoin.dump()
-
- 
