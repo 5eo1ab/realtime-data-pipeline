@@ -18,7 +18,8 @@ class XCoinPublic:
 		self.base_url = "https://api.bithumb.com/public/{}/{}".format(mode, currency)
 		self.res_data = self.__call__()
 		self.d_code = "{}_{}".format(mode, currency)
-		self.now = datetime.datetime.now().strftime('%y%m%d-%H%M%S')
+		#self.now = datetime.datetime.now().strftime('%y%m%d-%H%M%S')
+		self.now = datetime.datetime.today().timestamp()*1000
 		return None
 
 	def __call__(self):
@@ -44,4 +45,5 @@ class XCoinPublic:
 if __name__ == '__main__':
 	xcoin = XCoinPublic()
 	print(xcoin.get_data())
-	xcoin.dump()
+	print("timestamp: {}".format(xcoin.now))
+	#xcoin.dump()
