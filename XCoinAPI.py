@@ -19,7 +19,7 @@ class XCoinPublic:
 		self.res_data = self.__call__()
 		self.d_code = "{}_{}".format(mode, currency)
 		#self.now = datetime.datetime.now().strftime('%y%m%d-%H%M%S')
-		self.now = datetime.datetime.today().timestamp()*1000
+		self.now = int(datetime.datetime.today().timestamp()*1000)
 		return None
 
 	def __call__(self):
@@ -35,7 +35,7 @@ class XCoinPublic:
 		if fpath is None:
 			import os
 			fpath = '/'.join(os.getcwd().split('\\'))
-		with open(fpath+'/xcoin-public_{}_{}.json'.format(self.d_code, self.now), 'w') as f:
+		with open(fpath+'/{}_{}.json'.format(self.d_code, self.now), 'w') as f:
 			json.dump(self.res_data, f)
 		return None
 
