@@ -5,6 +5,7 @@ API_KEY.json
 /__pycache__
 /.ipynb_checkpoints
 /sw
+.idea/
 
 ## Directory for Data
 /public_ticker_ALL

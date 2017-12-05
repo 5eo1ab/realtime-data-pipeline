@@ -39,11 +39,17 @@ class XCoinPublic:
 			json.dump(self.res_data, f)
 		return None
 
+	def __ts2strftime__(ts):
+		res = datetime.datetime.fromtimestamp(ts/1000).strftime("%Y-%m-%d %H:%M:%S")
+		return res
+
 	def get_data(self):		return self.res_data
 	def get_now(self):		return self.now
+	def get_now_strftime(self):	return self.__ts2strftime__(self.now)
 
 if __name__ == '__main__':
 	xcoin = XCoinPublic()
 	print(xcoin.get_data())
 	print("timestamp: {}".format(xcoin.now))
+	print(xcoin.get_now_strftime())
 	#xcoin.dump()
