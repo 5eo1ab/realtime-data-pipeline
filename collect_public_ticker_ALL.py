@@ -21,9 +21,8 @@ def set_directory(OUT_DIR):
 if __name__ == '__main__':
 	set_directory(OUT_DIR)
 	while True:
-		print(xcoin.get_now_strftime())
-		for i in range(100):
+		for i in range(120):
 			xcoin = XCoinPublic() # default value: mode='ticker', currency='ALL'
 			xcoin.dump(OUT_DIR)
 			time.sleep(0.5)
-		#print(xcoin.get_now())
+		print(xcoin.get_now_strftime())
