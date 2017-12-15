@@ -22,12 +22,7 @@ Course Work Project, 2017 Fall @ Data Science, Seoultech.
   - (기회가 된다면) 실시간 의사결정 알고리즘 구현  
 
 ## Visualization Result
-
-[!Demo Pages](http://35.201.174.105:5601/goto/5e73a64b140f3903ab33e47adf37bf08)
- [view in new page](http://35.201.174.105:5601/goto/5e73a64b140f3903ab33e47adf37bf08)
-
-{::nomarkdown}
-
-<iframe src="http://35.201.174.105:5601/goto/5e73a64b140f3903ab33e47adf37bf08" height="600" width="800"></iframe>
-
-{:/}
+#### realtime price of ripple(XRP)
+[go link](http://35.201.174.105:5601/goto/5e73a64b140f3903ab33e47adf37bf08)
+<iframe src="http://35.201.174.105:5601/goto/5e73a64b140f3903ab33e47adf37bf08" height="600" width="800"
+frameborder="0" allowfullscreen="allowfullscreen">&npsp;</iframe>
