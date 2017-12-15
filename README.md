@@ -24,15 +24,15 @@ ELK stack 이용해 pipeline 구축 실습하는것 목적으로 함.
 ## Process Document
 - Google cloud server [setting manual](./setting_utility.md)
 - Run [data-pipeline](./run_data-pipeline.md)
-#### Issue:
-- bithumb API handling python script 불필요했음.
+#### issue:
+- bithumb [Restful API](./XCoinAPI.py) handling [python script](./collect_public_ticker_ALL.py) 불필요했음.
   * logstash input plungin - http_poller 사용하면 일정간격 갖고, 요청 반복가능.
   * RESTful API processing logstash [configure file](./conf_logstash/restful.conf)
-- 다수 코인 다루기 어려워 ripple(XRP) 한개 코인 사용.
+- 다수의 코인 다루기 어려워 ripple(XRP) 한개 코인 사용.
 - ...
 
 ## Data Pipeline Architecture
-![Architecture Image](./a10.jpg)
+![Architecture Image](./doc_image/sys-architecture.jpg)
 #### program version:
 - elasticsearch: 2.4.0
 - logstash: 2.4.0
@@ -42,5 +42,5 @@ ELK stack 이용해 pipeline 구축 실습하는것 목적으로 함.
 ### realtime price of ripple(XRP)
 - URL(present): http://35.201.174.105:5601/goto/5e73a64b140f3903ab33e47adf37bf08
 - 구글클라우드 유동ip라서 접속 안 될 예정
-#### screenshot image (2017-12-15 14:28):
-![Screenshot Image](./a20.png)
+#### dashboard screenshot image (2017-12-15 14:28):
+![Screenshot Image](./doc_image/dashborad-screenshop.png)
