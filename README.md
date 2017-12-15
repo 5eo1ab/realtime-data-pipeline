@@ -10,7 +10,7 @@ ELK stack 이용해 pipeline 구축 실습하는것 목적으로 함.
 - logstash: 데이터 수집(pipeline 입구)
 - kibana: 웹서버, UI 차트 등 시각화 목적
 
-## Proposal for RTS Stack Practice
+## Proposal for ELK Stack Practice
 - 목적: 데이터 분석을 위한 **데이터 pipeline** 프로젝트 기획
 - 분석 데이터: **실시간 암호화폐 시세 정보**
 - 주제선정 배경: realtime data handling & ~~realtime decision making~~
