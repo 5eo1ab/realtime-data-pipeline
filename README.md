@@ -23,6 +23,9 @@ Course Work Project, 2017 Fall @ Data Science, Seoultech.
 
 ## Visualization Result
 
+[!Demo Pages](http://35.201.174.105:5601/goto/5e73a64b140f3903ab33e47adf37bf08)
+ [view in new page](http://35.201.174.105:5601/goto/5e73a64b140f3903ab33e47adf37bf08)
+
 {::nomarkdown}
 
 <iframe src="http://35.201.174.105:5601/goto/5e73a64b140f3903ab33e47adf37bf08" height="600" width="800"></iframe>
