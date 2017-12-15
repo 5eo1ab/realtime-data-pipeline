@@ -1,4 +1,4 @@
-# trading-bot
+# realtime-data-pipeline
 
 Course Work Project, 2017 Fall @ Data Science, Seoultech.
 
