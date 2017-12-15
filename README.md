@@ -2,7 +2,7 @@
 
 Course Work Project, 2017 Fall @ Data Science, Seoultech.
 
-### RTS Stack = Real Time Streaming ?
+### Realtime Streaming Data Handling
 다양한 실시간 데이터 처리 기술 존재 (Ex) Streamsets, Apache Nifi, Flume 등등  
 ELK stack 이용해 pipeline 구축 실습하는것 목적으로 함.
 #### >> ELK Stack: elasticsearch + logstash + kibana
