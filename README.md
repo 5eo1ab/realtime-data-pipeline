@@ -32,7 +32,7 @@ Course Work Project, 2017 Fall @ Data Science, Seoultech.
 - ...
 
 ## Data Pipeline Architecture
-[Architecture Image]()
+[Architecture Image](./a.JPG)
 #### program version:
 - elasticsearch: 2.4.0
 - logstash: 2.4.0
