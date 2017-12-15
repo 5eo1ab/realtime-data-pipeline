@@ -42,3 +42,4 @@ Course Work Project, 2017 Fall @ Data Science, Seoultech.
 ### realtime price of ripple(XRP)
 URL(present): http://35.201.174.105:5601/goto/5e73a64b140f3903ab33e47adf37bf08
 
+![Screenshot Image](./dashboard-screenshot.png)
