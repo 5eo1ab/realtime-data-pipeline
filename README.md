@@ -23,4 +23,8 @@ Course Work Project, 2017 Fall @ Data Science, Seoultech.
 
 ## Visualization Result
 
-<iframe src="http://35.201.174.105:5601/app/kibana#/dashboard?embed=true&_g=(refreshInterval:(display:'10%20seconds',pause:!f,section:1,value:10000),time:(from:'2017-12-15T01:28:25.263Z',mode:absolute,to:'2017-12-15T09:16:18.659Z'))&_a=(filters:!(),options:(darkTheme:!t),panels:!((col:1,id:price_median,panelIndex:1,row:1,size_x:6,size_y:3,type:visualization),(col:7,id:min-max,panelIndex:2,row:1,size_x:6,size_y:3,type:visualization),(col:1,id:count_read,panelIndex:3,row:4,size_x:12,size_y:2,type:visualization),(col:1,id:data-group-by-10min,panelIndex:8,row:6,size_x:12,size_y:2,type:visualization)),query:(query_string:(analyze_wildcard:!t,query:'*')),title:'New%20Dashboard',uiState:())" height="600" width="800"></iframe>
+{::nomarkdown}
+
+<iframe src="http://35.201.174.105:5601/goto/5e73a64b140f3903ab33e47adf37bf08" height="600" width="800"></iframe>
+
+{:/}
