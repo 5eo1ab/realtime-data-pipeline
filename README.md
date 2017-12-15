@@ -25,9 +25,9 @@ ELK stack 이용해 pipeline 구축 실습하는것 목적으로 함.
 - Google cloud server [setting manual](./setting_utility.md)
 - Run [data-pipeline](./run_data-pipeline.md)
 #### issue:
-- bithumb [Restful API](./XCoinAPI.py) handling [python script](./collect_public_ticker_ALL.py) 불필요했음.
+- bithumb [REST API](./XCoinAPI.py) handling [python script](./collect_public_ticker_ALL.py) 불필요했음.
   * logstash input plungin - http_poller 사용하면 일정간격 갖고, 요청 반복가능.
-  * RESTful API processing logstash [configure file](./conf_logstash/restful.conf)
+  * REST API processing logstash [configure file](./conf_logstash/restful.conf)
 - 다수의 코인 다루기 어려워 ripple(XRP) 한개 코인 사용.
 - ...
 
