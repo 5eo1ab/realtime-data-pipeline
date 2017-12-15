@@ -21,3 +21,7 @@ $ bin/kibana
 ```
 
 ## 3. run logstash
+```
+$ cd ~/trading-bot/conf_logstash
+$ logstash -f restful.conf
+```
